@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Introducción — Mi Carrera</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter, system-ui, -apple-system,"Segoe UI",Roboto,Arial;color:#111;overflow-x:hidden;}
+    
+    /* Video de fondo */
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* detrás del contenido */
+    }
+
+    header{background:linear-gradient(90deg,#0ea5a4,#6366f1);color:#fff;padding:1.25rem;text-align:center}
+    nav{display:flex;gap:.5rem;justify-content:center;padding:.5rem}
+    nav a{color:#fff;text-decoration:none;padding:.4rem .7rem;border-radius:8px;background:rgba(255,255,255,.08)}
+    .container{max-width:860px;margin:1.5rem auto;padding:1rem}
+    .card{background:rgba(255,255,255,0.9);padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,.06)}
+    figure img{max-width:100%;height:auto;border-radius:8px;margin-top:.5rem}
+    a.back{display:inline-block;margin-top:.75rem;color:#0ea5a4;text-decoration:none}
+    p{line-height:1.5}
+  </style>
+</head>
+<body>
+
+  <!-- Video de fondo -->
+  <video autoplay muted loop id="bg-video">
+    <source src="on.mp4" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+
+  <header>
+    <h1>Introducción personal</h1>
+    <nav aria-label="Navegación">
+      <a href="index.html">Inicio</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="card">
+        <marquee direction="left" loop="infinite">
+            <img src="https://i.gifer.com/VWB.gif" height="100" width="200">
+        </marquee>
+
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Esta carrera yo la elegí, porque me apasionan mucho los autos todo lo que tenga que ver con lo automotriz, desde pequeño me gusta mucho ya que siempre estuve muy familiarizado con esto de los autos, aunque no se mucho me gustaría saber más mucho sobre lo automotriz y todo lo que tenga que ver con la industria. Aunque al principio quería estudiar ingeniería industrial por la influencia de unas primas por parte de mi mamá  que se graduaron de esa carrera aqui mismo en la UTEQ, una de las motivaciones más grandes que tengo, es poder graduarme y poder apoyara a mis papás, ya no dejar que trabajen y poder pagar todo lo que ellos me dieron, también me motiva mucho que soy el primero de mi familia por parte de mi padre, que terminó la prepa y está estudiando la universidad eso me motiva mucho a seguir aunque se hace un poco difícil porque está demasiado
+    lejos la universidad de donde vivo, aun asi no pienso
+    dejar la universidad por más difícil que sean.
+</p>
+
+      <figure>
+        <img src="https://jdmenginezone.com/cdn/shop/articles/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_60e170cf-bfd6-47e5-b09e-5fec15d8fe7d.jpg?v=1693926718" alt="Imagen motor / taller" />
+      </figure>
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTA: JDM Engine Zone. (2024). 2024 Nissan GT-R [Fotografía]. JDM Engine Zone. https://jdmenginezone.com/cdn/shop/articles/2024-nissan-gt-r-tanitildi-iste-tasarimi-ve-ozellikleri-7952-18_60e170cf-bfd6-47e5-b09e-5fec15d8fe7d.jpg?v=1693926718</p>
+
+      <a class="back" href="index.html">← Volver al índice</a>
+    </article>
+  </main>
+</body>
+</html>
+

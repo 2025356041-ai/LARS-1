@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Presentación creativa</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#111}
+     /* Video de fondo */
+    #bg-video {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      z-index: -1; /* detrás del contenido */
+    }
+    header{background:linear-gradient(90deg,#0ea5a4,#6366f1);color:#fff;padding:1.25rem;text-align:center}
+    nav{display:flex;justify-content:center;padding:.5rem}
+    .container{max-width:920px;margin:1.5rem auto;padding:1rem}
+    .card{background:#fff;padding:1rem;border-radius:10px;box-shadow:0 6px 18px rgba(15,23,42,.06)}
+    .gallery{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+    .gallery img{width:100%;height:160px;object-fit:cover;border-radius:8px}
+    .links{margin-top:1rem}
+    .links a{display:block;color:#0ea5a4;text-decoration:none;margin:.4rem 0}
+  </style>
+</head>
+<body>
+
+
+     <!-- Video de fondo -->
+  <video autoplay muted loop id="bg-video">
+    <source src="rd.mp4" type="video/mp4">
+    Tu navegador no soporta videos HTML5.
+  </video>
+  
+  <header>
+    <h1>Imágenes y videos (links) relacionados.</h1>
+   <nav>
+  <a href="index.html" class="button-link">Inicio</a>
+</nav>
+
+<style>
+  .button-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #5bb1b1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+  }
+
+  .button-link:hover {
+    background-color: #089899;
+  }
+</style>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Galería (imágenes relacionadas)</h2>
+      <div class="gallery" aria-hidden="false">
+        <img src="https://www.theautomonitor.com/wp-content/uploads/2021/07/Robots-in-car-manufacturing1-750x430.jpg" alt="Motor / taller" />
+        
+        <img src="https://blogingenieria.com/wp-content/uploads/2013/12/mecanica-automotriz.jpg" alt="Diseño CAD" />
+        
+        <img src="https://creatofilia.org/wp-content/uploads/industria-automotriz-1140x570-1.jpg" alt="Vehículo eléctrico" />
+        
+        <img src="https://www.ingenieriaymecanicaautomotriz.com/wp-content/uploads/2022/01/1-1.png" alt="Auto deportivo" />
+        
+      </div>
+      <br>
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTA: NOTA: The Auto Monitor. (2021, julio). Robots in car manufacturing [Fotografía]. The Auto Monitor. https://www.theautomonitor.com/wp-content/uploads/2021/07/Robots-in-car-manufacturing1-750x430.jpg
+        </p>
+        <br>
+        <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTA: Blog Ingeniería. (2013, diciembre). Mecánica automotriz [Fotografía]. Blog Ingeniería. https://blogingenieria.com/wp-content/uploads/2013/12/mecanica-automotriz.jpg
+        </p>
+        <br>
+        <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTA: Creatofilia. (s.f.). Industria automotriz [Fotografía]. Creatofilia. https://creatofilia.org/wp-content/uploads/industria-automotriz-1140x570-1.jpg
+        </p>
+        <br>
+        <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;NOTA: Ingeniería y Mantenimiento Automotriz. (2022, enero). Imagen ilustrativa [Fotografía]. https://www.ingenieriaymecanicaautomotriz.com/wp-content/uploads/2022/01/1-1.png
+        </p>
+
+      <h2 style="margin-top:1rem">Videos (links)</h2>
+      <p style="color:#6b7280">Los videos están como enlaces.</p>
+      <div class="links">
+        <a href="https://youtu.be/Fufa2tMlHgI" target="_blank" rel="noopener noreferrer">Estudiar ingeniería automotriz 🚗 ¿Qué hace un ingeniero automotriz? Todo sobre la carrera</a>
+        <a href="https://youtu.be/ci-t_8GGx5U" target="_blank" rel="noopener noreferrer">¿Qué es Ingeniería Mecánica Automotriz?</a>
+      </div>
+
+      <a class="back" href="index.html" style="display:inline-block;margin-top:1rem;color:#0ea5a4;text-decoration:none">← Volver al índice</a>
+    </section>
+  </main>
+</body>
+</html>
