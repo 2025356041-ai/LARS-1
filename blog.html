@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Blog — Comunicación en el entorno laboral</title>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{
+      font-family:Inter, system-ui, -apple-system,"Segoe UI",Roboto,Arial;
+      line-height:1.6;
+      color:#111;
+      position:relative;
+      min-height:100vh;
+    }
+
+    /* Fondo de video */
+    #video-background{
+      position:fixed;
+      top:0;
+      left:0;
+      width:100%;
+      height:100%;
+      object-fit:cover;
+      z-index:-1;
+    }
+
+    header{
+      background:linear-gradient(90deg,rgba(14,165,164,0.85),rgba(99,102,241,0.85));
+      color:#fff;
+      padding:1.5rem 2rem;
+      border-bottom-left-radius:14px;
+      border-bottom-right-radius:14px;
+      text-align:center;
+    }
+
+    header h1{
+      color:#fff; /* ✅ Título en blanco */
+      font-size:2rem;
+      margin-bottom:.3rem;
+    }
+
+    nav{
+      margin-top:1rem;
+      display:flex;
+      justify-content:center;
+      flex-wrap:wrap;
+      gap:.5rem;
+    }
+    nav a{
+      color:#fff;
+      text-decoration:none;
+      padding:.5rem .8rem;
+      border-radius:8px;
+      background:rgba(255,255,255,.1);
+      transition:all .3s ease;
+    }
+    nav a:hover{
+      background:#fff;
+      color:#0ea5a4;
+      transform:translateY(-3px);
+      box-shadow:0 4px 10px rgba(99,102,241,0.6);
+    }
+
+    main{
+      max-width:900px;
+      margin:2rem auto;
+      background:rgba(255,255,255,0.9);
+      border-radius:12px;
+      padding:2rem;
+      box-shadow:0 6px 18px rgba(15,23,42,0.1);
+    }
+
+    h1,h2{
+      color:#000000;
+    }
+
+    
+    footer{
+      text-align:center;
+      color:#fff;
+      background:rgba(0,0,0,0.5);
+      padding:1rem;
+      margin-top:2rem;
+      border-radius:8px;
+    }
+
+    /* ✅ Botón animado */
+    .return-btn{
+      display:inline-block;
+      margin:1rem auto 2rem;
+      padding:0.7rem 1.5rem;
+      border-radius:30px;
+      background:linear-gradient(90deg,#0ea5a4,#6366f1);
+      color:#fff;
+      font-weight:600;
+      text-decoration:none;
+      box-shadow:0 4px 15px rgba(99,102,241,0.4);
+      transition:all 0.4s ease;
+      position:relative;
+      overflow:hidden;
+    }
+
+    .return-btn::after{
+      content:"";
+      position:absolute;
+      top:0;
+      left:-100%;
+      width:100%;
+      height:100%;
+      background:rgba(255,255,255,0.3);
+      transform:skewX(-20deg);
+      transition:all 0.5s ease;
+    }
+
+    .return-btn:hover::after{
+      left:100%;
+    }
+
+    .return-btn:hover{
+      transform:translateY(-4px) scale(1.05);
+      box-shadow:0 6px 25px rgba(14,165,164,0.6);
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 🎥 Video de fondo -->
+  <video id="video-background" autoplay muted loop>
+    <source src="gt.mp4" type="video/mp4">
+  </video>
+
+  <header>
+    <h1>Blog — Comunicación en el Entorno Laboral</h1>
+    <!-- ✅ Botón animado para regresar al inicio -->
+    <div style="text-align:center;">
+      <a href="index.html" class="return-btn">⮌ Volver al inicio</a>
+    </div>
+    <nav>
+      <a href="index.html">Inicio</a>
+      <a href="introduccion.html">Introducción</a>
+      <a href="elementos.html">Elementos</a>
+      <a href="profundizacion.html">Profundización</a>
+      <a href="reflexion.html">Reflexión</a>
+      <a href="referencias.html">Referencias</a>
+    </nav>
+  </header>
+
+  <main>
+    
+
+    
+    <h2>Comunicación en el entorno laboral</h2>
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La comunicación es una herramienta esencial en cualquier ámbito de la vida, pero 
+        cobra una importancia aún mayor dentro del entorno laboral. En los trabajos, la manera en que las personas se comunican puede determinar el éxito o
+         el fracaso de una tarea, proyecto o relación profesional. Una buena comunicación permite que las ideas fluyan, que se resuelvan conflictos y que todos 
+         los miembros de una organización trabajen con un mismo objetivo.
+         Por ello, es fundamental conocer los diferentes tipos y técnicas de comunicación que ayudan a mejorar la convivencia y la productividad en el trabajo.</p>
+
+         <br>
+
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La comunicación en el entorno laboral se manifiesta de distintas formas. Por ejemplo, 
+        la <strong>comunicación intrapersonal</strong> ocurre dentro de cada individuo; es ese diálogo 
+        interno que nos ayuda a reflexionar antes de hablar o tomar decisiones. Gracias a ella, una persona puede expresarse de manera más clara y consciente.</p>
+
+        
+
+              <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;La <strong>comunicación interpersonal</strong>, por su parte, se da entre dos o más personas. 
+                Es la más común en el trabajo, ya que permite intercambiar información, coordinar actividades y fortalecer relaciones.</p>
+
+        
+
+
+              <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En cuanto a la <strong>comunicación verbal</strong>, se utiliza para transmitir mensajes 
+                mediante palabras habladas o escritas. 
+                Un correo electrónico, una junta o una presentación son ejemplos claros de este tipo.</p>
+
+        
+
+
+      <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Por otro lado, la <strong>comunicación no verbal</strong> también juega un papel importante. Los gestos, 
+        posturas, miradas o el tono de voz pueden 
+        expresar más que las propias palabras. Saber interpretar y controlar este tipo de comunicación ayuda a evitar malentendidos.</p>
+
+        <br>
+
+        <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dentro del ambiente laboral, existen <strong>écnicas de comunicación</strong> que fortalecen la convivencia y 
+            mejoran los resultados. Una de ellas es la <strong>escucha activa</strong>, que implica prestar atención real a lo que la otra persona dice, mostrando interés y respeto. 
+            La <strong>empatía</strong> también es fundamental, ya que permite ponerse en el lugar del otro y comprender sus sentimientos o puntos de vista. La <strong>persuasión</strong> ayuda a 
+            convencer a otros de forma ética y razonada, mientras que la <strong>asertividad</strong> permite expresar ideas y emociones con respeto, sin ser agresivo ni pasivo. Finalmente, 
+            la <strong>escritura efectiva</strong> es clave para redactar mensajes claros, ordenados y sin ambigüedades, algo esencial en correos, reportes o documentos laborales.</p>
+
+        <br>
+
+              <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estos aspectos se relacionan directamente con los <strong>atributos de egreso</strong> del programa educativo, 
+                ya que la comunicación desarrolla habilidades como el trabajo en equipo, la resolución de conflictos, la empatía, la toma de decisiones y la responsabilidad. 
+                Un estudiante que domina la comunicación podrá integrarse mejor al ámbito profesional y colaborar de manera más eficiente.</p>
+
+        <br>
+
+
+              <p style="color:#6b7280">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;En conclusión, la comunicación efectiva es una competencia esencial 
+                en el entorno laboral. No solo mejora las relaciones entre compañeros y superiores, sino que también aumenta la productividad, 
+                el respeto y el entendimiento mutuo. Saber comunicarse de manera clara, empática y asertiva marca la diferencia entre un ambiente de 
+                trabajo exitoso y uno lleno de conflictos. Por eso, desarrollar y aplicar estas habilidades desde la etapa escolar es clave para lograr un 
+                crecimiento profesional sólido y contribuir positivamente a cualquier organización.</p>
+
+        <br>
+
+
+      
+
+
+
+  </main>
+
+  <footer>
+    © <span id="year"></span> Rubio Suarez Luis Angel — Grupo LIMA001
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+
+</body>
+</html>
